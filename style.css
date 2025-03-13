@@ -1,6 +1,6 @@
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     font-size: 100%;
     border: none;
     outline: none;
@@ -8,27 +8,76 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-body{
+
+body {
     background-color: #d7d7d7;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-img{
+
+img {
     max-width: 100%;
 }
-.cabecalho{
+
+.cabecalho {
     width: 100%;
     float: left;
-    padding: 3% 4$;
+    padding: 3% 4%;
 }
-.logo{
+
+.logo {
     width: 56px;
     height: 56px;
     float: left;
     background: url(/imagem/CardanGrande.png) center center/56px no-repeat;
     font-size: 0;
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    border-radius: 56px;
+    background: linear-gradient(to right, #040404cc, #c9870ca4);
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.btn-close {
+    font-size: 3em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin-right: 6%;
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.menu li{
+    padding: 1.5%;
+}
+.menu li a{
+    font-size: 2em;
+    color: #fff;
+    padding: 1.5% 3%;
+}
+.menu li a:hover{
+    border: 1px solid #c9870ca4;
 }
