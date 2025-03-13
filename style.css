@@ -56,13 +56,12 @@ img {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.9);
 }
-
 .btn-close {
     font-size: 3em;
     color: #fff;
     float: right;
     cursor: pointer;
-    margin-right: 6%;
+    margin-right: 7%;
 }
 
 .menu ul{
